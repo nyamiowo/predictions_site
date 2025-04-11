@@ -1,0 +1,39 @@
+/* настройка шрифтов */
+
+/* Шрифт */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+.main h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 4rem;
+    letter-spacing: -4px;
+  text-align: center;
+  margin-top: 15%;
+  color: rgb( 255, 255, 255);
+
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+
+}
+

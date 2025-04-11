@@ -1,0 +1,50 @@
+/* прсто поле для ввода */
+.input {
+    padding: 10px;
+    margin-bottom: 1%;
+    height: 40px;
+  }
+  .input__container--wapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    font-family:'Comfortaa';
+    font-size: 2rem;
+    background: 0;
+    border: 0;
+    outline: none;
+    width: 80vw;
+    max-width: 400px;
+    color: rgb( 255, 255, 255);
+    transition: padding 0.3s 0.2s ease;
+  }
+  input:focus {
+    padding-bottom: 5px;
+  }
+  input:focus + .input__container--line:after {
+    transform: scaleX(1.2);
+  }
+  .input__container {
+    position: relative;
+  }
+  .input__container .input__container--line {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -8px;
+    background: rgb( 255, 255, 255);
+    border-radius: 99em;
+  }
+  .input__container .input__container--line:after {
+    content: " ";
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 5px;
+    transform: scalex(0);
+    transition: transform 0.3s ease;
+    background: linear-gradient(90deg,#e52e71,#ff8a00);
+    border-radius: 99em;
+  }

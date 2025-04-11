@@ -1,0 +1,30 @@
+/* Эффекта стекла, где пользователь получает запрос и всю историю */
+.glassmorphism-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: 0 auto;
+    transition: height 0.3s ease-in-out; /* плавное изменение высоты */
+    }
+    
+    .glassmorphism {
+    width: 50%;
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    padding: 20px; /* отступы для контента */
+    box-sizing: border-box;
+    }
+    
+    .glassmorphism p, .glassmorphism ul {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    }
+    

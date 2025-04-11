@@ -1,0 +1,8 @@
+/* Чтобы показывать историю, временно сломана */
+
+.button-container {
+  display: none; /* сначала скрыт */
+}
+.button-container.visible {
+  display: flex; /* появится при вводе */
+}
